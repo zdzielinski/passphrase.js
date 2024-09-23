@@ -63,8 +63,12 @@ The latest tagged versions can be found on our [NPM package page](https://www.np
 
 This module can be used within nodejs, it supports commonjs for now
 
+```bash
+npm install passphrase.js
+```
+
 ```js
-const passphrase = require("../todo");
+const passphrase = require("passphrase.js");
 console.log(passphrase.genPassPhraseNormal(4, passphrase.effLarge));
 console.log(passphrase.genPassPhraseCrypto(4, passphrase.effShort1));
 ```
