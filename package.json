@@ -1,0 +1,16 @@
+{
+  "name": "passphrase.js",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "npm run dist && jest",
+    "dist": "rm -rf dist && webpack"
+  },
+  "author": "Zachariah Dzielinski <zach@dzielinski.dev>",
+  "description": "Passphrase generation for the browser (and your module), with EFF wordlists included",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
