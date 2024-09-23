@@ -18,19 +18,17 @@ function _genPassPhrase(length, words, separator, getRandArrElem) {
   return passPhrase.slice(0, -separator.length);
 }
 
-const defaultSeparator = " ";
-
 /**
  * Generate a passphrase in a non cryptographically secure way
  * Uses Math.random for random number generation
  *
  * @param {number} length The length of the passphrase (in words)
  * @param {array} words The list of words to use for generation
- * @param {string} separator The separator to use, defaults to " "
+ * @param {string} separator The separator to use
  *
  * @returns {string} The generated passphrase
  */
-function genPassPhraseNormal(length, words, separator = defaultSeparator) {
+function genPassPhraseNormal(length, words, separator = " ") {
   return _genPassPhrase(length, words, separator, _getRandArrElemNormal);
 }
 
@@ -40,11 +38,11 @@ function genPassPhraseNormal(length, words, separator = defaultSeparator) {
  *
  * @param {number} length The length of the passphrase (in words)
  * @param {array} words The list of words to use for generation
- * @param {string} separator The separator to use, defaults to " "
+ * @param {string} separator The separator to use
  *
  * @returns {string} The generated passphrase
  */
-function genPassPhraseCrypto(length, words, separator = defaultSeparator) {
+function genPassPhraseCrypto(length, words, separator = " ") {
   return _genPassPhrase(length, words, separator, _getRandArrElemCrypto);
 }
 
