@@ -1,4 +1,5 @@
-[![npm version](https://badge.fury.io/js/passphrase.js.svg)](https://badge.fury.io/js/passphrase.js) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+![NPM Version](https://img.shields.io/npm/v/passphrase.js)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
 # passphrase.js
 
