@@ -2,9 +2,9 @@
 
 Passphrase generation for the browser, and your module
 
-## Overview
+## Documentation
 
-TODO
+Technical documentation can be found within [DOCUMENTATION.md](DOCUMENTATION.md)
 
 ## Functions
 

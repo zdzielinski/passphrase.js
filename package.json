@@ -11,7 +11,8 @@
   },
   "scripts": {
     "webpack": "rm -rf dist && webpack",
-    "format": "npx prettier . --write",
+    "format": "prettier . --write",
+    "docs": "documentation build src/** -f md --github -o DOCUMENTATION.md",
     "prepare": "husky",
     "test": "jest"
   },
