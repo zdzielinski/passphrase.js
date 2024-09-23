@@ -2,7 +2,6 @@ function _getRandArrElemNormal(a) {
   return a[Math.floor(Math.random() * a.length)];
 }
 
-// TODO - Sometimes gives a string with the wrong length? Have seen length 11 vs requested length of 10 once so far
 function _getRandArrElemCrypto(a) {
   return a[
     ((crypto.getRandomValues(new Uint32Array(1))[0] / 2 ** 32) * a.length) | 0
