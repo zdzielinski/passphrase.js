@@ -1,3 +1,3 @@
-const passphrase = require("../index.js")
+const passphrase = require("../index.js");
 
-require("./common.js").runCommonTests(passphrase)
+require("./common.js").runCommonTests(passphrase);

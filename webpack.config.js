@@ -1,8 +1,8 @@
-const path = require("path")
+const path = require("path");
 
 module.exports = {
-  devtool: 'source-map',
-  mode: 'production',
+  devtool: "source-map",
+  mode: "production",
   entry: {
     effLarge: path.resolve(__dirname, "src/effLarge.js"),
     effShort1: path.resolve(__dirname, "src/effShort1.js"),
@@ -17,4 +17,4 @@ module.exports = {
       type: "assign-properties",
     },
   },
-}
+};

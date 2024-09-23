@@ -7779,6 +7779,6 @@ const effLarge = [
   "zoologist",
   "zoology",
   "zoom",
-]
+];
 
-module.exports = { effLarge }
+module.exports = { effLarge };

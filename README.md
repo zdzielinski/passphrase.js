@@ -20,10 +20,10 @@ Example browser usage:
 Example nodejs usage:
 
 ```js
-const passphrase = require("../todo")
+const passphrase = require("../todo");
 
-console.log(passphrase.genPassPhraseNormal(4, passphrase.effLarge))
-console.log(passphrase.genPassPhraseCrypto(4, passphrase.effShort1))
+console.log(passphrase.genPassPhraseNormal(4, passphrase.effLarge));
+console.log(passphrase.genPassPhraseCrypto(4, passphrase.effShort1));
 ```
 
 NOTE - Some of the EFF words contain a `-` within them
