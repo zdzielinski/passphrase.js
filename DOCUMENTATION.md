@@ -41,6 +41,6 @@ Returns **[number][6]** that number, plus one.
 [2]: #parameters
 [3]: #genpassphrasecrypto
 [4]: #parameters-1
-[5]: https://github.com/zdzielinski/passphrase.js/blob/ad13df9c39ee9c190332bf54edf3981697860b66/src/functions.js#L28-L30 "Source code on GitHub"
+[5]: https://github.com/zdzielinski/passphrase.js/blob/c760802df4dd106fed059425f4adc539fd488511/src/functions.js#L28-L30 "Source code on GitHub"
 [6]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number
-[7]: https://github.com/zdzielinski/passphrase.js/blob/ad13df9c39ee9c190332bf54edf3981697860b66/src/functions.js#L37-L39 "Source code on GitHub"
+[7]: https://github.com/zdzielinski/passphrase.js/blob/c760802df4dd106fed059425f4adc539fd488511/src/functions.js#L37-L39 "Source code on GitHub"

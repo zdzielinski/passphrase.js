@@ -1,4 +1,3 @@
-npm run docs
 npm run format
 npm run webpack
 npm test
