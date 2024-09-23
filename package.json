@@ -12,7 +12,7 @@
   "scripts": {
     "webpack": "rm -rf dist && webpack",
     "format": "prettier . --write",
-    "docs": "documentation build src/** -f md --github -o docs/README.md",
+    "docs": "documentation readme src/** -f md --github --section=\"API Docs\"",
     "prepare": "husky",
     "test": "jest"
   },
