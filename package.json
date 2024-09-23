@@ -11,6 +11,7 @@
   },
   "scripts": {
     "webpack": "rm -rf dist && webpack",
+    "lint": "documentation lint src/**",
     "format": "prettier . --write",
     "docs": "documentation readme src/** -f md --github --section=\"API Docs\"",
     "prepare": "husky",

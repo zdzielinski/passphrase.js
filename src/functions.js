@@ -23,7 +23,7 @@ function _genPassPhrase(length, words, separator, getRandArrElem) {
  * Uses Math.random for random number generation
  *
  * @param {number} length The length of the passphrase (in words)
- * @param {array} words The list of words to use for generation
+ * @param {Array} words The list of words to use for generation
  * @param {string} separator The separator to use
  *
  * @returns {string} The generated passphrase
@@ -37,7 +37,7 @@ function genPassPhraseNormal(length, words, separator = " ") {
  * Uses crypto.getRandomValues for random number generation
  *
  * @param {number} length The length of the passphrase (in words)
- * @param {array} words The list of words to use for generation
+ * @param {Array} words The list of words to use for generation
  * @param {string} separator The separator to use
  *
  * @returns {string} The generated passphrase
