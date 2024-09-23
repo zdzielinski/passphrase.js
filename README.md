@@ -27,3 +27,7 @@ console.log(passphrase.genPassPhraseCrypto(4, passphrase.effShort1))
 ```
 
 NOTE - Some of the EFF words contain a `-` within them
+
+## License
+
+[The MIT License](./LICENSE)
