@@ -75,19 +75,19 @@ Returns **[string][17]** The generated passphrase
 
 [7]: #parameters-1
 
-[8]: https://github.com/zdzielinski/passphrase.js/blob/30d321a46d95e64ed64d70259575837597db767a/src/effLarge.js#L6-L7783 "Source code on GitHub"
+[8]: https://github.com/zdzielinski/passphrase.js/blob/87ee4fb9691d09d53f1e693a9545c0d4974b38f9/src/effLarge.js#L6-L7783 "Source code on GitHub"
 
 [9]: https://eff.org/files/2016/09/08/eff_short_wordlist_2_0.txt
 
-[10]: https://github.com/zdzielinski/passphrase.js/blob/30d321a46d95e64ed64d70259575837597db767a/src/effShort1.js#L6-L1303 "Source code on GitHub"
+[10]: https://github.com/zdzielinski/passphrase.js/blob/87ee4fb9691d09d53f1e693a9545c0d4974b38f9/src/effShort1.js#L6-L1303 "Source code on GitHub"
 
 [11]: https://eff.org/files/2016/09/08/eff_short_wordlist_1.txt
 
-[12]: https://github.com/zdzielinski/passphrase.js/blob/30d321a46d95e64ed64d70259575837597db767a/src/effShort2.js#L6-L1303 "Source code on GitHub"
+[12]: https://github.com/zdzielinski/passphrase.js/blob/87ee4fb9691d09d53f1e693a9545c0d4974b38f9/src/effShort2.js#L6-L1303 "Source code on GitHub"
 
 [13]: https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt
 
-[14]: https://github.com/zdzielinski/passphrase.js/blob/30d321a46d95e64ed64d70259575837597db767a/src/functions.js#L33-L35 "Source code on GitHub"
+[14]: https://github.com/zdzielinski/passphrase.js/blob/87ee4fb9691d09d53f1e693a9545c0d4974b38f9/src/functions.js#L33-L35 "Source code on GitHub"
 
 [15]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number
 
@@ -95,4 +95,4 @@ Returns **[string][17]** The generated passphrase
 
 [17]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
 
-[18]: https://github.com/zdzielinski/passphrase.js/blob/30d321a46d95e64ed64d70259575837597db767a/src/functions.js#L47-L49 "Source code on GitHub"
+[18]: https://github.com/zdzielinski/passphrase.js/blob/87ee4fb9691d09d53f1e693a9545c0d4974b38f9/src/functions.js#L47-L49 "Source code on GitHub"
