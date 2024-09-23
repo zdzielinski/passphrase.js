@@ -20,10 +20,20 @@ function _genPassPhrase(length, words, separator, getRandArrElem) {
 
 const defaultSeparator = " ";
 
+/**
+ * This function adds one to its input.
+ * @param {number} input any number
+ * @returns {number} that number, plus one.
+ */
 function genPassPhraseNormal(length, words, separator = defaultSeparator) {
   return _genPassPhrase(length, words, separator, _getRandArrElemNormal);
 }
 
+/**
+ * This function adds one to its input.
+ * @param {number} input any number
+ * @returns {number} that number, plus one.
+ */
 function genPassPhraseCrypto(length, words, separator = defaultSeparator) {
   return _genPassPhrase(length, words, separator, _getRandArrElemCrypto);
 }

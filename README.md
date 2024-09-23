@@ -26,10 +26,22 @@ Corresponding `<file>.min.js.map` files are also provided for debugging
 
 ```html
 ...
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/passphrase.js@latest/dist/effLarge.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/passphrase.js@latest/dist/effShort1.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/passphrase.js@latest/dist/effShort2.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/passphrase.js@latest/dist/functions.min.js"></script>
+<script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/passphrase.js@latest/dist/effLarge.min.js"
+></script>
+<script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/passphrase.js@latest/dist/effShort1.min.js"
+></script>
+<script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/passphrase.js@latest/dist/effShort2.min.js"
+></script>
+<script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/passphrase.js@latest/dist/functions.min.js"
+></script>
 <script type="text/javascript">
   console.log(passphrase.genPassPhraseNormal(4, passphrase.effLarge));
   console.log(passphrase.genPassPhraseCrypto(4, passphrase.effShort1));
@@ -49,8 +61,8 @@ console.log(passphrase.genPassPhraseCrypto(4, passphrase.effShort1));
 
 ## Notes
 
-* Some of the EFF words contain a `-` within them
-  * Keep this in mind if you use `-` as a separator
+- Some of the EFF words contain a `-` within them
+  - Keep this in mind if you use `-` as a separator
 
 ## License
 
