@@ -55,13 +55,13 @@ console.log(passphrase.genPassPhraseCrypto(4, passphrase.effShort1));
 
 #### Table of Contents
 
-*   [effLarge](#efflarge)
-*   [effShort1](#effshort1)
-*   [effShort2](#effshort2)
-*   [genPassPhraseNormal](#genpassphrasenormal)
-    *   [Parameters](#parameters)
-*   [genPassPhraseCrypto](#genpassphrasecrypto)
-    *   [Parameters](#parameters-1)
+- [effLarge](#efflarge)
+- [effShort1](#effshort1)
+- [effShort2](#effshort2)
+- [genPassPhraseNormal](#genpassphrasenormal)
+  - [Parameters](#parameters)
+- [genPassPhraseCrypto](#genpassphrasecrypto)
+  - [Parameters](#parameters-1)
 
 ### effLarge
 
@@ -93,9 +93,9 @@ Uses Math.random for random number generation
 
 #### Parameters
 
-*   `length` **[number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** The length of the passphrase (in words)
-*   `words` **[array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)** The list of words to use for generation
-*   `separator` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The separator to use (optional, default `" "`)
+- `length` **[number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** The length of the passphrase (in words)
+- `words` **[array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)** The list of words to use for generation
+- `separator` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The separator to use (optional, default `" "`)
 
 Returns **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The generated passphrase
 
@@ -108,16 +108,16 @@ Uses crypto.getRandomValues for random number generation
 
 #### Parameters
 
-*   `length` **[number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** The length of the passphrase (in words)
-*   `words` **[array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)** The list of words to use for generation
-*   `separator` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The separator to use (optional, default `" "`)
+- `length` **[number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** The length of the passphrase (in words)
+- `words` **[array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)** The list of words to use for generation
+- `separator` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The separator to use (optional, default `" "`)
 
 Returns **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The generated passphrase
 
 ## Notes
 
-*   Some of the EFF words contain a `-` within them
-    *   Keep this in mind if you use `-` as a separator
+- Some of the EFF words contain a `-` within them
+  - Keep this in mind if you use `-` as a separator
 
 ## License
 
