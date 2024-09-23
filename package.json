@@ -10,10 +10,14 @@
     "url": "https://github.com/zdzielinski/passphrase.js/issues"
   },
   "scripts": {
-    "test": "npm run dist && jest",
-    "dist": "rm -rf dist && webpack"
+    "webpack": "rm -rf dist && webpack",
+    "format": "npx prettier . --write",
+    "prepare": "husky",
+    "test": "jest"
   },
   "devDependencies": {
+    "globals": "^15.9.0",
+    "husky": "^9.1.6",
     "jest": "^29.7.0",
     "prettier": "3.3.3",
     "webpack": "^5.94.0",
