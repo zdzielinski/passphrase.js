@@ -55,69 +55,69 @@ console.log(passphrase.genPassPhraseCrypto(4, passphrase.effShort1));
 
 #### Table of Contents
 
-- [effLarge](#efflarge)
-- [effShort1](#effshort1)
-- [effShort2](#effshort2)
-- [genPassPhraseNormal](#genpassphrasenormal)
-  - [Parameters](#parameters)
-- [genPassPhraseCrypto](#genpassphrasecrypto)
-  - [Parameters](#parameters-1)
+*   [effLarge](#efflarge)
+*   [effShort1](#effshort1)
+*   [effShort2](#effshort2)
+*   [genPassPhraseNormal](#genpassphrasenormal)
+    *   [Parameters](#parameters)
+*   [genPassPhraseCrypto](#genpassphrasecrypto)
+    *   [Parameters](#parameters-1)
 
 ### effLarge
 
-[src/effLarge.js:6-7783](https://github.com/zdzielinski/passphrase.js/blob/771386dff4b013c04855892024f8da76a43f76ba/src/effLarge.js#L6-L7783 "Source code on GitHub")
+[src/effLarge.js:6-7783](https://github.com/zdzielinski/passphrase.js/blob/8a8720482c0836e28f3385b3dcfc4e9d788276e3/src/effLarge.js#L6-L7783 "Source code on GitHub")
 
 An array consisting of the eff short 2 wordlist, seen by the link below
 <https://eff.org/files/2016/09/08/eff_short_wordlist_2_0.txt>
 
 ### effShort1
 
-[src/effShort1.js:6-1303](https://github.com/zdzielinski/passphrase.js/blob/771386dff4b013c04855892024f8da76a43f76ba/src/effShort1.js#L6-L1303 "Source code on GitHub")
+[src/effShort1.js:6-1303](https://github.com/zdzielinski/passphrase.js/blob/8a8720482c0836e28f3385b3dcfc4e9d788276e3/src/effShort1.js#L6-L1303 "Source code on GitHub")
 
 An array consisting of the eff short 1 wordlist, seen by the link below
 <https://eff.org/files/2016/09/08/eff_short_wordlist_1.txt>
 
 ### effShort2
 
-[src/effShort2.js:6-1303](https://github.com/zdzielinski/passphrase.js/blob/771386dff4b013c04855892024f8da76a43f76ba/src/effShort2.js#L6-L1303 "Source code on GitHub")
+[src/effShort2.js:6-1303](https://github.com/zdzielinski/passphrase.js/blob/8a8720482c0836e28f3385b3dcfc4e9d788276e3/src/effShort2.js#L6-L1303 "Source code on GitHub")
 
 An array consisting of the eff large wordlist, seen by the link below
 <https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt>
 
 ### genPassPhraseNormal
 
-[src/functions.js:31-33](https://github.com/zdzielinski/passphrase.js/blob/771386dff4b013c04855892024f8da76a43f76ba/src/functions.js#L31-L33 "Source code on GitHub")
+[src/functions.js:31-33](https://github.com/zdzielinski/passphrase.js/blob/8a8720482c0836e28f3385b3dcfc4e9d788276e3/src/functions.js#L31-L33 "Source code on GitHub")
 
 Generate a passphrase in a non cryptographically secure way
 Uses Math.random for random number generation
 
 #### Parameters
 
-- `length` **[number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** The length of the passphrase (in words)
-- `words` **[array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)** The list of words to use for generation
-- `separator` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The separator to use (optional, default `" "`)
+*   `length` **[number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** The length of the passphrase (in words)
+*   `words` **[array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)** The list of words to use for generation
+*   `separator` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The separator to use (optional, default `" "`)
 
 Returns **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The generated passphrase
 
 ### genPassPhraseCrypto
 
-[src/functions.js:45-47](https://github.com/zdzielinski/passphrase.js/blob/771386dff4b013c04855892024f8da76a43f76ba/src/functions.js#L45-L47 "Source code on GitHub")
+[src/functions.js:45-47](https://github.com/zdzielinski/passphrase.js/blob/8a8720482c0836e28f3385b3dcfc4e9d788276e3/src/functions.js#L45-L47 "Source code on GitHub")
 
 Generate a passphrase in a cryptographically secure way
 Uses crypto.getRandomValues for random number generation
 
 #### Parameters
 
-- `length` **[number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** The length of the passphrase (in words)
-- `words` **[array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)** The list of words to use for generation
-- `separator` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The separator to use (optional, default `" "`)
+*   `length` **[number](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)** The length of the passphrase (in words)
+*   `words` **[array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)** The list of words to use for generation
+*   `separator` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The separator to use (optional, default `" "`)
 
 Returns **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The generated passphrase
 
 ## Notes
 
-- Some of the EFF words contain a `-` within them
-  - Keep this in mind if you use `-` as a separator
+*   Some of the EFF words contain a `-` within them
+    *   Keep this in mind if you use `-` as a separator
 
 ## License
 
