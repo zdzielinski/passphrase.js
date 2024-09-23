@@ -45,8 +45,8 @@ Returns **[number][6]** that number, plus one.
 
 [4]: #parameters-1
 
-[5]: https://github.com/zdzielinski/passphrase.js/blob/29d604e6e83ee153cfa1133f3094f7a1b7bd6eb6/src/functions.js#L28-L30 "Source code on GitHub"
+[5]: https://github.com/zdzielinski/passphrase.js/blob/443310c16d46ddffb3cfa7087d204e432697e214/src/functions.js#L28-L30 "Source code on GitHub"
 
 [6]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number
 
-[7]: https://github.com/zdzielinski/passphrase.js/blob/29d604e6e83ee153cfa1133f3094f7a1b7bd6eb6/src/functions.js#L37-L39 "Source code on GitHub"
+[7]: https://github.com/zdzielinski/passphrase.js/blob/443310c16d46ddffb3cfa7087d204e432697e214/src/functions.js#L37-L39 "Source code on GitHub"
