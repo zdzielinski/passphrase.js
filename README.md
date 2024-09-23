@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/passphrase.js.svg)](https://badge.fury.io/js/passphrase.js) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
 # passphrase.js
 
 Passphrase generation for the browser, and your module
