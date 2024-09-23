@@ -1,6 +1,7 @@
-/***
- *** Global Constants
- ***/
+/**
+ * An array consisting of the eff large wordlist, seen by the link below
+ * https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt
+ */
 
 const effShort2 = [
   "aardvark",

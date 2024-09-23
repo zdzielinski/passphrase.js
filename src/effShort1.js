@@ -1,6 +1,7 @@
-/***
- *** Global Constants
- ***/
+/**
+ * An array consisting of the eff short 1 wordlist, seen by the link below
+ * https://eff.org/files/2016/09/08/eff_short_wordlist_1.txt
+ */
 
 const effShort1 = [
   "acid",

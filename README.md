@@ -4,13 +4,7 @@ Passphrase generation for the browser, and your module
 
 ## Documentation
 
-Technical documentation can be found within [DOCUMENTATION.md](DOCUMENTATION.md)
-
-## Functions
-
-```js
-
-```
+Technical documentation can be found within the [docs](./docs) folder
 
 ## Usage
 

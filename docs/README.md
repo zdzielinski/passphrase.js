@@ -2,51 +2,97 @@
 
 ### Table of Contents
 
-*   [genPassPhraseNormal][1]
-    *   [Parameters][2]
-*   [genPassPhraseCrypto][3]
-    *   [Parameters][4]
+*   [effLarge][1]
+*   [effShort1][2]
+*   [effShort2][3]
+*   [genPassPhraseNormal][4]
+    *   [Parameters][5]
+*   [genPassPhraseCrypto][6]
+    *   [Parameters][7]
+
+## effLarge
+
+[src/effLarge.js:6-7783][8]
+
+An array consisting of the eff short 2 wordlist, seen by the link below
+[https://eff.org/files/2016/09/08/eff\_short\_wordlist\_2\_0.txt][9]
+
+## effShort1
+
+[src/effShort1.js:6-1303][10]
+
+An array consisting of the eff short 1 wordlist, seen by the link below
+[https://eff.org/files/2016/09/08/eff\_short\_wordlist\_1.txt][11]
+
+## effShort2
+
+[src/effShort2.js:6-1303][12]
+
+An array consisting of the eff large wordlist, seen by the link below
+[https://www.eff.org/files/2016/07/18/eff\_large\_wordlist.txt][13]
 
 ## genPassPhraseNormal
 
-[src/functions.js:28-30][5]
+[src/functions.js:33-35][14]
 
-This function adds one to its input.
+Generate a passphrase in a non cryptographically secure way
+Uses Math.random for random number generation
 
 ### Parameters
 
-*   `length` &#x20;
-*   `words` &#x20;
-*   `separator`   (optional, default `defaultSeparator`)
-*   `input` **[number][6]** any number
+*   `length` **[number][15]** The length of the passphrase (in words)
+*   `words` **[array][16]** The list of words to use for generation
+*   `separator` **[string][17]** The separator to use, defaults to " " (optional, default `defaultSeparator`)
 
-Returns **[number][6]** that number, plus one.
+Returns **[string][17]** The generated passphrase
 
 ## genPassPhraseCrypto
 
-[src/functions.js:37-39][7]
+[src/functions.js:47-49][18]
 
-This function adds one to its input.
+Generate a passphrase in a cryptographically secure way
+Uses crypto.getRandomValues for random number generation
 
 ### Parameters
 
-*   `length` &#x20;
-*   `words` &#x20;
-*   `separator`   (optional, default `defaultSeparator`)
-*   `input` **[number][6]** any number
+*   `length` **[number][15]** The length of the passphrase (in words)
+*   `words` **[array][16]** The list of words to use for generation
+*   `separator` **[string][17]** The separator to use, defaults to " " (optional, default `defaultSeparator`)
 
-Returns **[number][6]** that number, plus one.
+Returns **[string][17]** The generated passphrase
 
-[1]: #genpassphrasenormal
+[1]: #efflarge
 
-[2]: #parameters
+[2]: #effshort1
 
-[3]: #genpassphrasecrypto
+[3]: #effshort2
 
-[4]: #parameters-1
+[4]: #genpassphrasenormal
 
-[5]: https://github.com/zdzielinski/passphrase.js/blob/9f1de4563fe7fc302bab10faed4166530ea28134/src/functions.js#L28-L30 "Source code on GitHub"
+[5]: #parameters
 
-[6]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number
+[6]: #genpassphrasecrypto
 
-[7]: https://github.com/zdzielinski/passphrase.js/blob/9f1de4563fe7fc302bab10faed4166530ea28134/src/functions.js#L37-L39 "Source code on GitHub"
+[7]: #parameters-1
+
+[8]: https://github.com/zdzielinski/passphrase.js/blob/30d321a46d95e64ed64d70259575837597db767a/src/effLarge.js#L6-L7783 "Source code on GitHub"
+
+[9]: https://eff.org/files/2016/09/08/eff_short_wordlist_2_0.txt
+
+[10]: https://github.com/zdzielinski/passphrase.js/blob/30d321a46d95e64ed64d70259575837597db767a/src/effShort1.js#L6-L1303 "Source code on GitHub"
+
+[11]: https://eff.org/files/2016/09/08/eff_short_wordlist_1.txt
+
+[12]: https://github.com/zdzielinski/passphrase.js/blob/30d321a46d95e64ed64d70259575837597db767a/src/effShort2.js#L6-L1303 "Source code on GitHub"
+
+[13]: https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt
+
+[14]: https://github.com/zdzielinski/passphrase.js/blob/30d321a46d95e64ed64d70259575837597db767a/src/functions.js#L33-L35 "Source code on GitHub"
+
+[15]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number
+
+[16]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+[17]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
+
+[18]: https://github.com/zdzielinski/passphrase.js/blob/30d321a46d95e64ed64d70259575837597db767a/src/functions.js#L47-L49 "Source code on GitHub"
