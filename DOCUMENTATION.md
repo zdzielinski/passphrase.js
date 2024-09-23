@@ -2,10 +2,10 @@
 
 ### Table of Contents
 
-- [genPassPhraseNormal][1]
-  - [Parameters][2]
-- [genPassPhraseCrypto][3]
-  - [Parameters][4]
+*   [genPassPhraseNormal][1]
+    *   [Parameters][2]
+*   [genPassPhraseCrypto][3]
+    *   [Parameters][4]
 
 ## genPassPhraseNormal
 
@@ -15,10 +15,10 @@ This function adds one to its input.
 
 ### Parameters
 
-- `length` &#x20;
-- `words` &#x20;
-- `separator` (optional, default `defaultSeparator`)
-- `input` **[number][6]** any number
+*   `length` &#x20;
+*   `words` &#x20;
+*   `separator`   (optional, default `defaultSeparator`)
+*   `input` **[number][6]** any number
 
 Returns **[number][6]** that number, plus one.
 
@@ -30,17 +30,23 @@ This function adds one to its input.
 
 ### Parameters
 
-- `length` &#x20;
-- `words` &#x20;
-- `separator` (optional, default `defaultSeparator`)
-- `input` **[number][6]** any number
+*   `length` &#x20;
+*   `words` &#x20;
+*   `separator`   (optional, default `defaultSeparator`)
+*   `input` **[number][6]** any number
 
 Returns **[number][6]** that number, plus one.
 
 [1]: #genpassphrasenormal
+
 [2]: #parameters
+
 [3]: #genpassphrasecrypto
+
 [4]: #parameters-1
-[5]: https://github.com/zdzielinski/passphrase.js/blob/c760802df4dd106fed059425f4adc539fd488511/src/functions.js#L28-L30 "Source code on GitHub"
+
+[5]: https://github.com/zdzielinski/passphrase.js/blob/29d604e6e83ee153cfa1133f3094f7a1b7bd6eb6/src/functions.js#L28-L30 "Source code on GitHub"
+
 [6]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number
-[7]: https://github.com/zdzielinski/passphrase.js/blob/c760802df4dd106fed059425f4adc539fd488511/src/functions.js#L37-L39 "Source code on GitHub"
+
+[7]: https://github.com/zdzielinski/passphrase.js/blob/29d604e6e83ee153cfa1133f3094f7a1b7bd6eb6/src/functions.js#L37-L39 "Source code on GitHub"
