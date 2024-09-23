@@ -1,5 +1,5 @@
 {
-  "version": "0.0.2",
+  "version": "0.0.3",
   "name": "passphrase.js",
   "author": "Zachariah Dzielinski <zach@dzielinski.dev> (https://zach.dzielinski.dev/)",
   "description": "Passphrase generation for the browser, and your module",

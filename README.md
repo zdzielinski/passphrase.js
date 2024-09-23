@@ -1,5 +1,5 @@
 ![NPM Version](https://img.shields.io/npm/v/passphrase.js)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE.md)
 
 # passphrase.js
 
@@ -75,9 +75,8 @@ console.log(passphrase.genPassPhraseCrypto(4, passphrase.effShort1));
 
 ## Notes
 
-- Some of the EFF words contain a `-` within them
-  - Keep this in mind if you use `-` as a separator
+- Some of the EFF words contain a `-` within them, keep this in mind if you use that as a separator
 
 ## License
 
-[The MIT License](./LICENSE)
+[The MIT License](./LICENSE.md)
