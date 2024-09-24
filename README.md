@@ -1,4 +1,4 @@
-![NPM Version](https://img.shields.io/npm/v/passphrase.js)
+[![NPM Version](https://img.shields.io/npm/v/passphrase.js)](https://www.npmjs.com/package/passphrase.js)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE.md)
 
 # passphrase.js
@@ -11,7 +11,7 @@ Passphrase generation for the browser, and your module
 
 Passphrase generation is a useful facet of obtaining a unique identifier, or a secure token
 
-Traditionally, there have been passphrase libraries for nodejs modules; but none of them extend to the browser
+Traditionally, there have been passphrase libraries for NodeJS modules; but none of them extend to the browser
 
 This module provides a simple interface for passphrase generation, both in the browser, and as a module
 
@@ -75,7 +75,7 @@ The latest tagged versions can be found on our [NPM package versions tab](https:
 
 ### NodeJS
 
-This module can be used within nodejs, it supports commonjs for now
+This module can be used within NodeJS, it supports CommonJS for now
 
 ```bash
 npm install passphrase.js
