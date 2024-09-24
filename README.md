@@ -71,7 +71,7 @@ https://cdn.jsdelivr.net/npm/passphrase.js@latest/dist/functions.min.js
 https://cdn.jsdelivr.net/npm/passphrase.js@<release_version>/dist/functions.min.js
 ```
 
-The latest tagged versions can be found on our [NPM package page](https://www.npmjs.com/package/passphrase.js?activeTab=versions)
+The latest tagged versions can be found on our [NPM package versions tab](https://www.npmjs.com/package/passphrase.js?activeTab=versions)
 
 ### NodeJS
 
