@@ -13,9 +13,9 @@ Passphrase generation is a useful facet of obtaining a unique identifier, or a s
 
 Traditionally, there have been passphrase libraries for nodejs modules; but none of them extend to the browser
 
-This module aims to provide a simple interface for passphrase generation, both in the browser, and as a importable nodejs module
+This module provides a simple interface for passphrase generation, both in the browser, and as a module
 
-Several passphrase wordlists have been packaged for usage, thanks to the wonderful [Electronic Frontier Foundation (EFF)](https://www.eff.org/)
+Several wordlists have been included, thanks to the wonderful [Electronic Frontier Foundation (EFF)](https://www.eff.org/)
 
 ## API Documentation
 
