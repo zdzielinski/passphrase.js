@@ -7,6 +7,16 @@ Passphrase generation for the browser, and your module
 
 ![xkcd comic #936, password strength](https://imgs.xkcd.com/comics/password_strength_2x.png)
 
+## Purpose
+
+Passphrase generation is a useful facet of obtaining a unique identifier, or a secure token
+
+Traditionally, there have been passphrase libraries for nodejs modules; but none of them extend to the browser
+
+This module aims to provide a simple interface for passphrase generation, both in the browser, and as a importable nodejs module
+
+Several passphrase wordlists have been packaged for usage, thanks to the wonderful [Electronic Frontier Foundation (EFF)](https://www.eff.org/)
+
 ## API Documentation
 
 Detailed API documentation can be found within the [api](./api) folder
