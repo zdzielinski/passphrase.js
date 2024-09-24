@@ -68,14 +68,14 @@ Returns **[string][17]** The generated passphrase
 [5]: #parameters
 [6]: #genpassphrasecrypto
 [7]: #parameters-1
-[8]: https://github.com/zdzielinski/passphrase.js/blob/069b58a592e148037f6a5dd4c03b9cd86e64d325/src/effLarge.js#L6-L7783 "Source code on GitHub"
+[8]: https://github.com/zdzielinski/passphrase.js/blob/a75f00f8dbdb1452828ad506e381fe8fceb0190f/src/effLarge.js#L6-L7783 "Source code on GitHub"
 [9]: https://eff.org/files/2016/09/08/eff_short_wordlist_2_0.txt
-[10]: https://github.com/zdzielinski/passphrase.js/blob/069b58a592e148037f6a5dd4c03b9cd86e64d325/src/effShort1.js#L6-L1303 "Source code on GitHub"
+[10]: https://github.com/zdzielinski/passphrase.js/blob/a75f00f8dbdb1452828ad506e381fe8fceb0190f/src/effShort1.js#L6-L1303 "Source code on GitHub"
 [11]: https://eff.org/files/2016/09/08/eff_short_wordlist_1.txt
-[12]: https://github.com/zdzielinski/passphrase.js/blob/069b58a592e148037f6a5dd4c03b9cd86e64d325/src/effShort2.js#L6-L1303 "Source code on GitHub"
+[12]: https://github.com/zdzielinski/passphrase.js/blob/a75f00f8dbdb1452828ad506e381fe8fceb0190f/src/effShort2.js#L6-L1303 "Source code on GitHub"
 [13]: https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt
-[14]: https://github.com/zdzielinski/passphrase.js/blob/069b58a592e148037f6a5dd4c03b9cd86e64d325/src/functions.js#L31-L33 "Source code on GitHub"
+[14]: https://github.com/zdzielinski/passphrase.js/blob/a75f00f8dbdb1452828ad506e381fe8fceb0190f/src/functions.js#L31-L33 "Source code on GitHub"
 [15]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number
 [16]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array
 [17]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
-[18]: https://github.com/zdzielinski/passphrase.js/blob/069b58a592e148037f6a5dd4c03b9cd86e64d325/src/functions.js#L45-L47 "Source code on GitHub"
+[18]: https://github.com/zdzielinski/passphrase.js/blob/a75f00f8dbdb1452828ad506e381fe8fceb0190f/src/functions.js#L45-L47 "Source code on GitHub"
