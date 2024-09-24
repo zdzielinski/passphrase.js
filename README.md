@@ -5,6 +5,8 @@
 
 Passphrase generation for the browser, and your module
 
+![xkcd comic #936, password strength](https://imgs.xkcd.com/comics/password_strength_2x.png)
+
 ## API Documentation
 
 Detailed API documentation can be found within the [api](./api) folder
@@ -41,7 +43,9 @@ Corresponding `<file>.min.js.map` files are also provided for debugging
 ></script>
 <script type="text/javascript">
   console.log(passphrase.genPassPhraseNormal(4, passphrase.effLarge));
+  // > busybody squabble agonizing armhole
   console.log(passphrase.genPassPhraseCrypto(4, passphrase.effShort1));
+  // > card ruby stood union
 </script>
 ...
 ```
@@ -70,7 +74,9 @@ npm install passphrase.js
 ```js
 const passphrase = require("passphrase.js");
 console.log(passphrase.genPassPhraseNormal(4, passphrase.effLarge));
+// > dangle raft failing say
 console.log(passphrase.genPassPhraseCrypto(4, passphrase.effShort1));
+// > copy suds watch bolt
 ```
 
 ## Notes
