@@ -13,7 +13,7 @@
     "webpack": "rm -rf dist && webpack",
     "lint": "documentation lint src/**",
     "format": "prettier . --write",
-    "docs": "documentation build src/** -f md --github -o api/README.md",
+    "docs": "documentation build src/** -f md -o api/README.md",
     "prepare": "husky",
     "test": "jest"
   },

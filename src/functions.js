@@ -20,6 +20,7 @@ function _genPassPhrase(length, words, separator, getRandArrElem) {
 
 /**
  * Generate a passphrase in a non cryptographically secure way
+ * 
  * Uses Math.random for random number generation
  *
  * @param {number} length The length of the passphrase (in words)
@@ -34,6 +35,7 @@ function genPassPhraseNormal(length, words, separator = " ") {
 
 /**
  * Generate a passphrase in a cryptographically secure way
+ * 
  * Uses crypto.getRandomValues for random number generation
  *
  * @param {number} length The length of the passphrase (in words)
