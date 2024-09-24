@@ -2,34 +2,28 @@
 
 ### Table of Contents
 
-*   [effLarge][1]
-*   [effShort1][2]
-*   [effShort2][3]
-*   [effShort2][4]
-*   [genPassPhraseNormal][5]
-    *   [Parameters][6]
-*   [genPassPhraseCrypto][7]
-    *   [Parameters][8]
-*   [functions][9]
+- [effLarge][1]
+- [effShort1][2]
+- [effShort2][3]
+- [genPassPhraseNormal][4]
+  - [Parameters][5]
+- [genPassPhraseCrypto][6]
+  - [Parameters][7]
 
 ## effLarge
 
 An array consisting of the eff short 2 wordlist, seen by the link below
-[https://eff.org/files/2016/09/08/eff\_short\_wordlist\_2\_0.txt][10]
+[https://eff.org/files/2016/09/08/eff_short_wordlist_2_0.txt][8]
 
 ## effShort1
 
 An array consisting of the eff short 1 wordlist, seen by the link below
-[https://eff.org/files/2016/09/08/eff\_short\_wordlist\_1.txt][11]
+[https://eff.org/files/2016/09/08/eff_short_wordlist_1.txt][9]
 
 ## effShort2
 
 An array consisting of the eff large wordlist, seen by the link below
-[https://www.eff.org/files/2016/07/18/eff\_large\_wordlist.txt][12]
-
-## effShort2
-
-TODO
+[https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt][10]
 
 ## genPassPhraseNormal
 
@@ -39,11 +33,11 @@ Uses Math.random for random number generation
 
 ### Parameters
 
-*   `length` **[number][13]** The length of the passphrase (in words)
-*   `words` **[Array][14]** The list of words to use for generation
-*   `separator` **[string][15]** The separator to use (optional, default `" "`)
+- `length` **[number][11]** The length of the passphrase (in words)
+- `words` **[Array][12]** The list of words to use for generation
+- `separator` **[string][13]** The separator to use (optional, default `" "`)
 
-Returns **[string][15]** The generated passphrase
+Returns **[string][13]** The generated passphrase
 
 ## genPassPhraseCrypto
 
@@ -53,42 +47,22 @@ Uses crypto.getRandomValues for random number generation
 
 ### Parameters
 
-*   `length` **[number][13]** The length of the passphrase (in words)
-*   `words` **[Array][14]** The list of words to use for generation
-*   `separator` **[string][15]** The separator to use (optional, default `" "`)
+- `length` **[number][11]** The length of the passphrase (in words)
+- `words` **[Array][12]** The list of words to use for generation
+- `separator` **[string][13]** The separator to use (optional, default `" "`)
 
-Returns **[string][15]** The generated passphrase
-
-## functions
-
-TODO
+Returns **[string][13]** The generated passphrase
 
 [1]: #efflarge
-
 [2]: #effshort1
-
 [3]: #effshort2
-
-[4]: #effshort2-1
-
-[5]: #genpassphrasenormal
-
-[6]: #parameters
-
-[7]: #genpassphrasecrypto
-
-[8]: #parameters-1
-
-[9]: #functions
-
-[10]: https://eff.org/files/2016/09/08/eff_short_wordlist_2_0.txt
-
-[11]: https://eff.org/files/2016/09/08/eff_short_wordlist_1.txt
-
-[12]: https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt
-
-[13]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number
-
-[14]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array
-
-[15]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
+[4]: #genpassphrasenormal
+[5]: #parameters
+[6]: #genpassphrasecrypto
+[7]: #parameters-1
+[8]: https://eff.org/files/2016/09/08/eff_short_wordlist_2_0.txt
+[9]: https://eff.org/files/2016/09/08/eff_short_wordlist_1.txt
+[10]: https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt
+[11]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number
+[12]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array
+[13]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
